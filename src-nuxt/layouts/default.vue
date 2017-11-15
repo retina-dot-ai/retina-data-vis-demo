@@ -5,6 +5,9 @@
 </template>
 
 <style>
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css";
+
 html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

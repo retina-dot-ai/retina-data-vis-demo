@@ -2,17 +2,29 @@
   <section class="container">
     <div>
       <logo/>
-      <h1 class="title">
-        Working Title
-      </h1>
       <h2 class="subtitle">
         A <a href="https://github.com/phlogisticfugu/perfect-paca">perfect-paca</a>
         universal app base on <a href="https://nuxtjs.org/">Nuxt.js</a>
       </h2>
-      <div class="links">
-        <nuxt-link to="/hello">Hello</nuxt-link>
+      <div class="columns">
+        <div class="column"></div>
+        <div class="column">
+          <div class="content">
+            <ul>
+              <li>
+                <nuxt-link to="/vue-highcharts" style="white-space:nowrap">vue-highcharts</nuxt-link>
+              </li>
+              <li>
+                two
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column"></div>
       </div>
+
     </div>
+
   </section>
 </template>
 
@@ -20,6 +32,11 @@
 import Logo from '~components/Logo.vue'
 
 export default {
+  head () {
+    return {
+      title: 'Welcome'
+    }
+  },
   components: {
     Logo
   }
@@ -27,6 +44,10 @@ export default {
 </script>
 
 <style>
+nuxt-link {
+  white-space: nowrap;
+}
+
 .container
 {
   min-height: 100vh;
