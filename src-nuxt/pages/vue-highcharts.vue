@@ -1,9 +1,16 @@
 <template>
-  <div class="columns is-multiline">
-    <div v-for="plot_options in highcharts_plot_options" class="column box">
-      <highcharts :options="plot_options"></highcharts>
+  <article class="message is-info">
+    <div class="message-header">
+      <p><a href="https://github.com/weizhenye/vue-highcharts">https://github.com/weizhenye/vue-highcharts</a></p>
     </div>
-  </div>
+    <div class="message-body">
+      <div class="columns is-multiline">
+        <div v-for="plot_options in highcharts_plot_options" class="column">
+          <highcharts :options="plot_options"></highcharts>
+        </div>
+      </div>
+    </div>
+  </article>
 </template>
 
 <script>

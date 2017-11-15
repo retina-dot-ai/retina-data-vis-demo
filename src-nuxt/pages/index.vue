@@ -2,27 +2,24 @@
   <section class="container">
     <div>
       <logo/>
-      <h2 class="subtitle">
-        A <a href="https://github.com/phlogisticfugu/perfect-paca">perfect-paca</a>
-        universal app base on <a href="https://nuxtjs.org/">Nuxt.js</a>
-      </h2>
-      <div class="columns">
-        <div class="column"></div>
-        <div class="column">
-          <div class="content">
-            <ul>
-              <li>
-                <nuxt-link to="/vue-highcharts" style="white-space:nowrap">vue-highcharts</nuxt-link>
-              </li>
-              <li>
-                two
-              </li>
-            </ul>
-          </div>
+      <article class="message is-info">
+        <div class="message-header">
+        <p>
+          A <a href="https://github.com/phlogisticfugu/perfect-paca">perfect-paca</a>
+          universal app base on <a href="https://nuxtjs.org/">Nuxt.js</a>
+        </p>
         </div>
-        <div class="column"></div>
-      </div>
-
+        <div class="message-body">
+        <ul>
+          <li>
+            <nuxt-link to="/vue-highcharts" style="white-space:nowrap">vue-highcharts</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/vuetrend" style="white-space:nowrap">vuetrend</nuxt-link>
+          </li>
+        </ul>
+        </div>
+      </article>
     </div>
 
   </section>

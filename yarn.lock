@@ -4711,6 +4711,10 @@ vue@~2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.2.6.tgz#451714b394dd6d4eae7b773c40c2034a59621aed"
 
+vuetrend@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/vuetrend/-/vuetrend-0.2.3.tgz#cb8412709af089d89c1b507037355dd63b269389"
+
 vuex@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-2.3.1.tgz#cde8e997c1f9957719bc7dea154f9aa691d981a6"

@@ -29,6 +29,7 @@ module.exports = {
     }
   },
   plugins: [
-    '~/plugins/vue-highcharts'
+    '~/plugins/vue-highcharts',
+    '~/plugins/vuetrend'
   ]
 }
